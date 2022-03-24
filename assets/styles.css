@@ -1,0 +1,42 @@
+/* Hergemony Wicked Weather Dashboard */
+/* styles for UL */
+body {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: medium;
+color:navy;
+
+}
+
+
+footer {
+
+}
+ul {
+    list-style: none;
+
+}
+/* styles for Li */
+li {
+    border-bottom: 1px solid lightgray;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.card-title {
+    font-size: 20px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+/* styles for five day forecast */
+.fiveDayColor {
+    padding: 20px;
+    background-color: #1E90FF;
+    color: white;
+    float: left;
+    margin: 10px;
+    border: 1px solid lightgray;
+
+}
