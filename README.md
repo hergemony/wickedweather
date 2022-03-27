@@ -24,7 +24,7 @@ This textarea will display the users password once it has been generated
 
 
 **SCREENSHOTS**
-1) The user will be prompted to choose from the following password criteria: 8 and 128 characters
+1) 
 ![alt text](https://github.com/hergemony/wickedweather?raw=true)
 
 **Javascript Features**
