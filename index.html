@@ -16,53 +16,107 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-    <p class="intro">Welcome to the Wicked Weather Dashboard. You don't need to curse the weather, be prepared instead!</p>
 </head>
 <body>
 
     <!-- Insert and link optional Javascript using jQuery, Popper.js and Bootstrap.js -->
-
-
-
-
-    <p class="searchweather">You can research the weather for global destinations by entering in your desired location in the 'Location' field. After that click on the button "WHAT'S THE FORECAST?"</p>
-
-<!-- Insert entertaining picture to make it more eye catching and interesting for user -->
-<img src="assets/manumbrella.jpeg">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d3bce829f3.js" crossorigin="anonymous"></script>
 
 <!-- Create container for heading -->
 <div class="container-fluid">
+    <div class="card">
+        <div class="card-body text-center bg-dark text-white">
+            <h1>The Wicked Weather Dashboard</h1>
+            <!-- Insert image to suit wicked theme -->
+            <figure><img src="assets/manumbrella.jpg" class="manumbrella">
+                <figcaption class="intro"> Welcome to the Wicked Weather Dashboard. 
+You don't need to curse the weather, be prepared instead! Type in the city location, click the search button and view the forecast ☔</figcaption>
+              </figure>
 
-
+        </div>
+    </div>
 </div>
 
 
-<!-- Create container for search input -->
+<!-- Create card #1 for search input -->
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="card-body text-center">
+                <!-- Search input goes here -->
+
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body bg-light">
+                        <h6 class="card-subtitle mb-2 text-muted">Search For A City</h6>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control searchInput" placeholder="Enter City Name"
+                                aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary bg-primary searchButton" type="button"
+                                    id="button-addon2"><i class="fas fa-search"></i></button>
+                            </div>
+                        </div>
+
+                        <ul class="list-group">
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
-<!-- Create container for results output -->
+<!-- Create area for results output -->
 
 
-<!-- Display current forecast -->
+<!-- Create card #2 and display current weather forecast -->
+<div class="col mt-4 mr-5">
+    <div class="card currentCard pb-2 pt-1">
+        <h5 class="card-title mt-2 text-center">Current Forecast</h5>
+    </div>
+</div>
+<div class="row">
+    <div class="col mt-4">
 
+<!-- Create card #3 and display 5-Day forecast -->
+<div class="card pb-5 fiveDayCard pl-5">
+    <!-- Appends 5 day forecast-->
+    <h5 class="card-title mt-2 mr-5">5-Day Forecast </h5>
+    <div class="row">
+        <div class="col fiveDayOne">
+        </div>
 
-<!-- Display 5-Day forecast -->
+    </div>
+
+</div>
+</div>
+</div>
+</div>
 
 
     <!-- Link to various Javascript -->
     <script src="script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+ 
 </body>
-
-
 
 
 <!-- Insert original branded footer -->
 <!-- N.B New github font awesome icon added, link to github io-->
 <footer>
 
-<h1> ❤ Hergemony Digital Services 2022 ❤ 
+<h1 class="h1"> ©️ 2022 Hergemony Digital Services
     <i class="fa fa-github-square"></i>
-
 </h1>
 
 </footer>

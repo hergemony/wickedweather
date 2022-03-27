@@ -8,11 +8,13 @@ color:black;
 }
 
 
-footer {
-
-    font-size: x-small;
+.h1 {
+    font-size: 1em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: navy;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    padding-top: 40px;
 }
 ul {
     list-style: none;
@@ -30,8 +32,8 @@ li {
 }
 
 img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 300px;
 }
 /* styles for five day forecast */
 .fiveDayColor {

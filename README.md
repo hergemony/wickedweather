@@ -12,15 +12,9 @@ TML and CSS and Javascript documents create a random password generator. This ap
 
 This project has the following features:
 
-- A Generate button
-This will send the user a series of prompts and confirms
-After user data is collected, the weather for the selected location will show
-
-- A Textarea
-This textarea will display the users password once it has been generated
-
-- A Show button
-
+- Card #1 contains a Search Bar where the user can input a desired city location, search history is displayed
+- Card #2 showing response for the current weather (location, temperature, humidity, rain, wind and UV index)
+- Card #3 showing 5 Day Forecast
 
 
 **SCREENSHOTS**
@@ -28,23 +22,27 @@ This textarea will display the users password once it has been generated
 ![alt text](https://github.com/hergemony/wickedweather?raw=true)
 
 **Javascript Features**
+- Api calls from (https://openweathermap.org/api/one-call-api)
+(N.B. Three Api calls are necessary for current weather, 5 day forecast and UV index)
 - Variable declaration area
-- An event listener (onclick) 
+- Event listener (onclick) that receives user input
+- A ForEach loop to loop through the 5 Day Forecast
+- A responsive Bootstrap layout is used
 
 
 **Github Repository Features**
 - One HTML Pages (Index.html - Contains basic user input items and buttons with divs and ids)
-- One CSS Pages (Style.css)
-- One Javascript Page * Contains: * Variables, including arrays and value placeholders * Two event listeners * Two if/else if statements * One function outside of first event listener
-- Images of screenshots to show example of the Wicked Weather Dashboard in action
+- One CSS Pages (Styles.css)
+- One Javascript Page * Contains: * Variables, including arrays, event listeners, for each loop, local storage
+- Images of screenshots to show example of the Wicked Weather Dashboard 
 
 
-*Thank you for viewing!*
+*Thank you for forecasting the weather with us!*
 
 Github Profile Link => https://github.com/hergemony
 
 Deployed Application Link => https://hergemony.github.io/wickedweather
 
 
-❤ Hergemony Digital Services 2022 ❤
+©️ 2022 Hergemony Digital Services
 
