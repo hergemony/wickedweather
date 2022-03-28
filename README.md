@@ -2,13 +2,7 @@
 
 Hello!
 
-Welcome to another task brought to you by Hergemony.
-
-This week we will be exploring the weird wacky world of wicked weather!
-
-We will designing  a dashboard that allows users to search for the weather forecast of a desired location.
-
-TML and CSS and Javascript documents create a random password generator. This application emphasizes the use of Javascript to generate a random, secure password for the user.
+We will designing a dashboard that allows users to search for the weather forecast of a desired city location.
 
 This project has the following features:
 

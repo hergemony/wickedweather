@@ -4,6 +4,7 @@ body {
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-size: medium;
 color:black;
+background-color:slategrey;
 
 }
 
@@ -13,8 +14,10 @@ color:black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     justify-content: center;
-    color: black;
+    color: whitesmoke;
     padding-top: 40px;
+    background-color:slategrey
+
 }
 ul {
     list-style: none;
