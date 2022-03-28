@@ -12,8 +12,17 @@ This project has the following features:
 
 
 **SCREENSHOTS**
-1) 
-![alt text](https://github.com/hergemony/wickedweather?raw=true)
+1) Starting/landing page will have heading, picture, search bar on the left and results on the right. Both Current Temperature and 5 Day Forecast containers will show. It will be empty until the user enters a search input.
+![alt text](https://github.com/hergemony/wickedweather/blob/main/assets/Screen%20Shot%202022-03-28%20at%205.07.25%20pm.png?raw=true)
+
+2) User enters a city into the search bar. Multiple entries will be retained and displayed below.
+![alt text](https://github.com/hergemony/wickedweather/blob/main/assets/Screen%20Shot%202022-03-28%20at%205.08.31%20pm.png?raw=true)
+
+3) Screenshot showing populated results for 5 Day Forecast:
+![alt text](https://github.com/hergemony/wickedweather/blob/main/assets/Screen%20Shot%202022-03-28%20at%205.08.40%20pm.png?raw=true)
+
+
+
 
 **Javascript Features**
 - Api calls from (https://openweathermap.org/api/one-call-api)
